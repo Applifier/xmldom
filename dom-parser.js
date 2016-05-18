@@ -2012,6 +2012,7 @@
 
 	if(typeof require == 'function'){
 		exports.DOMParser = DOMParser;
+		exports.XMLSerializer = _dom.XMLSerializer;
 	}
 
 	return exports;
